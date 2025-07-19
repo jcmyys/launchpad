@@ -1,0 +1,46 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #f3f6fb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 430px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 34px 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #304096;
+}
+
+button {
+  width: 100%;
+  margin: 18px 0 0 0;
+  padding: 10px;
+  background: #304096;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button + button {
+  margin-top: 10px;
+  background: #6a89d7;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+}
+
+#mbtiQuestionBox, #quizQuestionBox, #mbtiResultBox, #quizResultBox {
+  margin-top: 20px;
+}

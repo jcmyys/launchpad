@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>MBTI & 상식 테스트</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 메인 선택 화면 -->
+    <div id="serviceSelect">
+      <h1>테스트 서비스 선택</h1>
+      <button id="toMbtiBtn">MBTI 테스트</button>
+      <button id="toQuizBtn">상식문제 테스트</button>
+    </div>
+    <!-- MBTI 서비스 화면 -->
+    <form id="mbtiForm" style="display:none;">
+      <h2>MBTI 테스트</h2>
+      <div id="mbtiQuestionBox"></div>
+      <button type="button" id="mbtiNextBtn">다음</button>
+      <button type="button" id="mbtiBackBtn">처음으로</button>
+    </form>
+    <div id="mbtiResultBox" style="display:none;"></div>
+    <!-- 상식문제 서비스 화면 -->
+    <form id="quizForm" style="display:none;">
+      <h2>상식문제 테스트</h2>
+      <div id="quizQuestionBox"></div>
+      <button type="button" id="quizNextBtn">다음</button>
+      <button type="button" id="quizBackBtn">처음으로</button>
+    </form>
+    <div id="quizResultBox" style="display:none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
